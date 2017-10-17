@@ -10,7 +10,7 @@ func scanInt(n int) []int {
 		buffer[i] = &input[i]
 	}
 	fmt.Scanln(buffer...)
-	return input
+	return inputva
 }
 
 func main() {
